@@ -1,4 +1,4 @@
-# PID-Controlled Variable Speed Constant Pressure Centrifugal Pumping System 
+# PID-Controlled Variable Speed Centrifugal Pumping System 
 This repo holds firmware (in MCS51 assembly) for the Atmel AT89C55 microcontroller. The microcontroller is at the center of an embedded controller that controls a variable speed drive (VFD) and four centrifusal pumps to generate constant fluid pressure and/or change water flow based on input hydrographs.
 
 
