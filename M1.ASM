@@ -1,7 +1,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;
-;
-;
+; 
+; Written by Yasin Osroosh, Ph.D.
+; Email: yosroosh@gmail.com
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 WTCMD        EQU       10100000B                ;WRITE DATA COMMAND         
@@ -82,8 +82,6 @@ PRESENTATION:
              JMP       MAIN11
 ANSHANDIS:
              MOV       A, #'O' 
-             LCALL     WRITE_TEXT
-             MOV       A, #'s' 
              LCALL     WRITE_TEXT
              MOV       A, #'s' 
              LCALL     WRITE_TEXT
