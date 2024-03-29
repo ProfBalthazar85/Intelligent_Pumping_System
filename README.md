@@ -1,2 +1,2 @@
 # Intelligent Pumping System
-Firmware for intelligent pumping system that generates constant pressure
+Firmware for 8051 microcontroller to generate constant pressure and/or change water flow based on input hydrographs
